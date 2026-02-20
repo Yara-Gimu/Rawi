@@ -1,0 +1,589 @@
+{
+  "landmarks": [
+    {
+      "id": "001",
+      "name": {
+        "ar": "قرية رجال ألمع التراثية",
+        "en": "Rijal Almaa Heritage Village",
+        "fr": "Village patrimonial de Rijal Almaa",
+        "es": "Pueblo Patrimonial de Rijal Almaa"
+      },
+      "location": {
+        "lat": 18.2156,
+        "lng": 42.5053,
+        "google_maps_url": "https://goo.gl/maps/FkjU2dvm3fJtZmRt8"
+      },
+      "description": {
+        "ar": "قرية تراثية تعود لأكثر من 900 عام، تتميز ببيوتها الحجرية المزخرفة بنقوش القط العسيري.",
+        "en": "A heritage village dating back more than 900 years, famous for its stone houses decorated with Asiri cat engravings.",
+        "fr": "Un village patrimonial datant de plus de 900 ans, célèbre pour ses maisons en pierre décorées de gravures de chat Asiri.",
+        "es": "Un pueblo patrimonial que data de hace más de 900 años, famoso por sus casas de piedra decoradas con grabados de gato Asiri."
+      },
+      "recommendations": ["002", "003", "005"],
+      "visits": 0,
+      "interactions": 0
+    },
+    {
+      "id": "002",
+      "name": {
+        "ar": "جبل السودة",
+        "en": "Jabal Sawda",
+        "fr": "Mont Sawda",
+        "es": "Montaña Sawda"
+      },
+      "location": {
+        "lat": 18.2639,
+        "lng": 42.3758,
+        "google_maps_url": "https://goo.gl/maps/rkP17Za7ZTkrtp9L6"
+      },
+      "description": {
+        "ar": "أعلى قمة في السعودية بارتفاع 3000 متر، تتميز بمناظرها الخلابة وطقسها المعتدل صيفاً.",
+        "en": "The highest peak in Saudi Arabia at 3000 meters, known for its scenic views and moderate summer weather.",
+        "fr": "Le plus haut sommet d'Arabie saoudite à 3000 mètres, connu pour ses vues panoramiques et son temps estival modéré.",
+        "es": "El pico más alto de Arabia Saudita con 3000 metros, conocido por sus vistas panorámicas y su clima veraniego moderado."
+      },
+      "recommendations": ["001", "004", "006"],
+      "visits": 0,
+      "interactions": 0
+    },
+    {
+      "id": "003",
+      "name": {
+        "ar": "قرية ذي عين التراثية",
+        "en": "Dhi Ain Heritage Village",
+        "fr": "Village patrimonial Dhi Ain",
+        "es": "Pueblo Patrimonial Dhi Ain"
+      },
+      "location": {
+        "lat": 18.2137,
+        "lng": 42.4810,
+        "google_maps_url": "https://goo.gl/maps/5hpuK2ejkLdG45Cj7"
+      },
+      "description": {
+        "ar": "قرية أثرية تمزج بين التراث العمراني والطبيعة الخلابة في عسير.",
+        "en": "An ancient village blending architectural heritage with the beautiful nature of Asir.",
+        "fr": "Un village ancien mêlant patrimoine architectural et la belle nature d'Asir.",
+        "es": "Un pueblo antiguo que combina patrimonio arquitectónico con la hermosa naturaleza de Asir."
+      },
+      "recommendations": ["001", "005", "007"],
+      "visits": 0,
+      "interactions": 0
+    },
+    {
+      "id": "004",
+      "name": {
+        "ar": "منتزه السودة الوطني",
+        "en": "Al-Soudah National Park",
+        "fr": "Parc National Al-Soudah",
+        "es": "Parque Nacional Al-Soudah"
+      },
+      "location": {
+        "lat": 18.2793,
+        "lng": 42.3687,
+        "google_maps_url": "https://goo.gl/maps/1LkBaEv8sG1q9u2A7"
+      },
+      "description": {
+        "ar": "منتزه طبيعي يضم غابات كثيفة وهو مكان مثالي للتنزه والاستجمام.",
+        "en": "A natural park featuring dense forests, ideal for hiking and relaxation.",
+        "fr": "Un parc naturel avec des forêts denses, idéal pour la randonnée et la détente.",
+        "es": "Un parque natural con bosques densos, ideal para senderismo y relajación."
+      },
+      "recommendations": ["002", "006", "008"],
+      "visits": 0,
+      "interactions": 0
+    },
+    {
+      "id": "005",
+      "name": {
+        "ar": "قرية المفتاحة التراثية",
+        "en": "Al-Muftaha Heritage Village",
+        "fr": "Village patrimonial Al-Muftaha",
+        "es": "Pueblo Patrimonial Al-Muftaha"
+      },
+      "location": {
+        "lat": 18.2149,
+        "lng": 42.4825,
+        "google_maps_url": "https://goo.gl/maps/fxp2q9JqRvU9X6r49"
+      },
+      "description": {
+        "ar": "قرية تعكس التراث العسيري الأصيل من خلال فنونها ومبانيها التاريخية.",
+        "en": "A village reflecting authentic Asiri heritage through its arts and historic buildings.",
+        "fr": "Un village reflétant le patrimoine authentique d'Asir à travers ses arts et bâtiments historiques.",
+        "es": "Un pueblo que refleja la herencia auténtica de Asir a través de sus artes y edificios históricos."
+      },
+      "recommendations": ["001", "003", "007"],
+      "visits": 0,
+      "interactions": 0
+    },
+    {
+      "id": "006",
+      "name": {
+        "ar": "متحف عسير الإقليمي",
+        "en": "Asir Regional Museum",
+        "fr": "Musée régional d'Asir",
+        "es": "Museo Regional de Asir"
+      },
+      "location": {
+        "lat": 18.2200,
+        "lng": 42.4960,
+        "google_maps_url": "https://goo.gl/maps/8G3BZvgpVhQtXjCu5"
+      },
+      "description": {
+        "ar": "متحف يعرض التراث الثقافي والتاريخي لمنطقة عسير ويضم مقتنيات أثرية نادرة.",
+        "en": "Museum showcasing cultural and historical heritage of Asir, housing rare artifacts.",
+        "fr": "Musée présentant le patrimoine culturel et historique d'Asir, abritant des artefacts rares.",
+        "es": "Museo que exhibe el patrimonio cultural e histórico de Asir, con artefactos raros."
+      },
+      "recommendations": ["004", "007", "009"],
+      "visits": 0,
+      "interactions": 0
+    },
+    {
+      "id": "007",
+      "name": {
+        "ar": "قرية بللحمر",
+        "en": "Ballahmar Village",
+        "fr": "Village de Ballahmar",
+        "es": "Pueblo Ballahmar"
+      },
+      "location": {
+        "lat": 18.2085,
+        "lng": 42.4750,
+        "google_maps_url": "https://goo.gl/maps/D9sAYntcA6YZxYvM7"
+      },
+      "description": {
+        "ar": "قرية تراثية تتميز بالعمارة الحجرية القديمة والمناظر الطبيعية الخلابة.",
+        "en": "Heritage village known for its old stone architecture and beautiful natural scenery.",
+        "fr": "Village patrimonial connu pour son ancienne architecture en pierre et ses beaux paysages naturels.",
+        "es": "Pueblo patrimonial conocido por su antigua arquitectura de piedra y hermosos paisajes naturales."
+      },
+      "recommendations": ["003", "005", "006"],
+      "visits": 0,
+      "interactions": 0
+    },
+    {
+      "id": "008",
+      "name": {
+        "ar": "منتزه الأمير سلطان",
+        "en": "Prince Sultan Park",
+        "fr": "Parc Prince Sultan",
+        "es": "Parque Príncipe Sultan"
+      },
+      "location": {
+        "lat": 18.2780,
+        "lng": 42.3905,
+        "google_maps_url": "https://goo.gl/maps/pJXWq1J7Xov8Kqqz7"
+      },
+      "description": {
+        "ar": "منتزه عام يوفر مساحات خضراء واسعة وأماكن للجلوس والترفيه العائلي.",
+        "en": "Public park offering wide green spaces and family-friendly recreational areas.",
+        "fr": "Parc public offrant de vastes espaces verts et des zones de loisirs familiales.",
+        "es": "Parque público que ofrece amplias áreas verdes y zonas recreativas para familias."
+      },
+      "recommendations": ["004", "009", "010"],
+      "visits": 0,
+      "interactions": 0
+    },
+    {
+      "id": "009",
+      "name": {
+        "ar": "قرية الحبلة",
+        "en": "Al-Habla Village",
+        "fr": "Village Al-Habla",
+        "es": "Pueblo Al-Habla"
+      },
+      "location": {
+        "lat": 18.1953,
+        "lng": 42.4771,
+        "google_maps_url": "https://goo.gl/maps/US5QwhbVZpj1z6oz9"
+      },
+      "description": {
+        "ar": "قرية أثرية ذات طابع تراثي أصيل، تحتوي على بيوت حجرية وممرات ضيقة.",
+        "en": "An ancient village with authentic heritage character, featuring stone houses and narrow alleys.",
+        "fr": "Un village ancien avec un caractère patrimonial authentique, comprenant des maisons en pierre et des ruelles étroites.",
+        "es": "Un pueblo antiguo con carácter patrimonial auténtico, con casas de piedra y callejones estrechos."
+      },
+      "recommendations": ["007", "010", "011"],
+      "visits": 0,
+      "interactions": 0
+    },
+    {
+      "id": "010",
+      "name": {
+        "ar": "محمية رجال ألمع الطبيعية",
+        "en": "Rijal Almaa Nature Reserve",
+        "fr": "Réserve naturelle de Rijal Almaa",
+        "es": "Reserva Natural de Rijal Almaa"
+      },
+      "location": {
+        "lat": 18.2100,
+        "lng": 42.5100,
+        "google_maps_url": "https://goo.gl/maps/aJdXtjHmC3Vh6U1W9"
+      },
+      "description": {
+        "ar": "محمية طبيعية تحافظ على التنوع البيئي وتضم مسارات للمشي وسط الطبيعة.",
+        "en": "A nature reserve preserving biodiversity with walking trails amidst nature.",
+        "fr": "Une réserve naturelle préservant la biodiversité avec des sentiers de randonnée au milieu de la nature.",
+        "es": "Una reserva natural que preserva la biodiversidad con senderos para caminar en la naturaleza."
+      },
+      "recommendations": ["008", "009", "011"],
+      "visits": 0,
+      "interactions": 0
+    },
+    {
+      "id": "011",
+      "name": {
+        "ar": "قلعة ذي شمر",
+        "en": "Dhi Shamer Castle",
+        "fr": "Château Dhi Shamer",
+        "es": "Castillo Dhi Shamer"
+      },
+      "location": {
+        "lat": 18.2212,
+        "lng": 42.4928,
+        "google_maps_url": "https://goo.gl/maps/YnGou7VX6cXJXayX9"
+      },
+      "description": {
+        "ar": "قلعة تاريخية تعود لقرون، تعكس قوة العمارة الحصينة في عسير.",
+        "en": "A historical castle dating back centuries, reflecting strong fortified architecture in Asir.",
+        "fr": "Un château historique datant de plusieurs siècles, reflétant une architecture fortifiée solide en Asir.",
+        "es": "Un castillo histórico que data de siglos, que refleja una arquitectura fortificada sólida en Asir."
+      },
+      "recommendations": ["009", "012", "013"],
+      "visits": 0,
+      "interactions": 0
+    },
+    {
+      "id": "012",
+      "name": {
+        "ar": "قرية رجال ألمع القديمة",
+        "en": "Old Rijal Almaa Village",
+        "fr": "Ancien village de Rijal Almaa",
+        "es": "Antiguo Pueblo Rijal Almaa"
+      },
+      "location": {
+        "lat": 18.2130,
+        "lng": 42.5070,
+        "google_maps_url": "https://goo.gl/maps/6HsmxYF7QgS3LZ7g7"
+      },
+      "description": {
+        "ar": "الجزء القديم من قرية رجال ألمع يعكس التراث العسيري بوضوح.",
+        "en": "The old part of Rijal Almaa village clearly reflects Asiri heritage.",
+        "fr": "La vieille partie du village de Rijal Almaa reflète clairement le patrimoine d'Asir.",
+        "es": "La parte antigua del pueblo Rijal Almaa refleja claramente la herencia de Asir."
+      },
+      "recommendations": ["001", "011", "013"],
+      "visits": 0,
+      "interactions": 0
+    },
+    {
+      "id": "013",
+      "name": {
+        "ar": "جبل القهر",
+        "en": "Jabal Al-Qahr",
+        "fr": "Mont Al-Qahr",
+        "es": "Montaña Al-Qahr"
+      },
+      "location": {
+        "lat": 18.2500,
+        "lng": 42.4000,
+        "google_maps_url": "https://goo.gl/maps/7vALZBqbHYYLMHJF6"
+      },
+      "description": {
+        "ar": "جبل مرتفع في عسير معروف بمناظره الخلابة وتنوعه البيئي.",
+        "en": "A high mountain in Asir known for its scenic views and ecological diversity.",
+        "fr": "Une haute montagne d'Asir connue pour ses vues pittoresques et sa diversité écologique.",
+        "es": "Una montaña alta en Asir conocida por sus vistas escénicas y diversidad ecológica."
+      },
+      "recommendations": ["002", "004", "014"],
+      "visits": 0,
+      "interactions": 0
+    },
+    {
+      "id": "014",
+      "name": {
+        "ar": "قرية بني سعد التراثية",
+        "en": "Bani Saad Heritage Village",
+        "fr": "Village patrimonial Bani Saad",
+        "es": "Pueblo Patrimonial Bani Saad"
+      },
+      "location": {
+        "lat": 18.2205,
+        "lng": 42.4650,
+        "google_maps_url": "https://goo.gl/maps/ERuCp77vv2PtiqkAA"
+      },
+      "description": {
+        "ar": "قرية تراثية تجمع بين التاريخ العسيري والمشاهد الطبيعية الخلابة.",
+        "en": "A heritage village combining Asiri history and stunning natural landscapes.",
+        "fr": "Un village patrimonial combinant histoire d'Asir et paysages naturels époustouflants.",
+        "es": "Un pueblo patrimonial que combina la historia de Asir y paisajes naturales impresionantes."
+      },
+      "recommendations": ["007", "013", "015"],
+      "visits": 0,
+      "interactions": 0
+    },
+    {
+      "id": "015",
+      "name": {
+        "ar": "منتزه الشفا",
+        "en": "Al-Shifa Park",
+        "fr": "Parc Al-Shifa",
+        "es": "Parque Al-Shifa"
+      },
+      "location": {
+        "lat": 18.2300,
+        "lng": 42.4800,
+        "google_maps_url": "https://goo.gl/maps/4Qns6HxDnkxjU5qY9"
+      },
+      "description": {
+        "ar": "منتزه طبيعي يوفر بيئة هادئة ومساحات خضراء للنزهات العائلية.",
+        "en": "A natural park offering a peaceful environment and green spaces for family picnics.",
+        "fr": "Un parc naturel offrant un environnement paisible et des espaces verts pour les pique-niques en famille.",
+        "es": "Un parque natural que ofrece un ambiente tranquilo y espacios verdes para picnics familiares."
+      },
+      "recommendations": ["008", "014", "016"],
+      "visits": 0,
+      "interactions": 0
+    },
+    {
+      "id": "016",
+      "name": {
+        "ar": "قرية تثليث التراثية",
+        "en": "Tathleeth Heritage Village",
+        "fr": "Village patrimonial de Tathleeth",
+        "es": "Pueblo Patrimonial de Tathleeth"
+      },
+      "location": {
+        "lat": 18.1400,
+        "lng": 42.7000,
+        "google_maps_url": "https://goo.gl/maps/fNZgMZa7XLe8sPav5"
+      },
+      "description": {
+        "ar": "قرية تراثية تتميز بالمباني القديمة وأسلوب الحياة التقليدي في عسير.",
+        "en": "A heritage village featuring old buildings and traditional lifestyle in Asir.",
+        "fr": "Un village patrimonial avec des bâtiments anciens et un mode de vie traditionnel en Asir.",
+        "es": "Un pueblo patrimonial con edificios antiguos y estilo de vida tradicional en Asir."
+      },
+      "recommendations": ["017", "018", "020"],
+      "visits": 0,
+      "interactions": 0
+    },
+    {
+      "id": "017",
+      "name": {
+        "ar": "محمية شرم الشيخ",
+        "en": "Sharm Al Sheikh Reserve",
+        "fr": "Réserve de Sharm Al Sheikh",
+        "es": "Reserva de Sharm Al Sheikh"
+      },
+      "location": {
+        "lat": 18.1900,
+        "lng": 42.5800,
+        "google_maps_url": "https://goo.gl/maps/9xMBqtxuC1Nbm5YU9"
+      },
+      "description": {
+        "ar": "محمية طبيعية تحافظ على الحياة البرية والنباتات المحلية في منطقة عسير.",
+        "en": "A nature reserve preserving local wildlife and plants in Asir region.",
+        "fr": "Une réserve naturelle préservant la faune et la flore locales dans la région d'Asir.",
+        "es": "Una reserva natural que preserva la fauna y flora local en la región de Asir."
+      },
+      "recommendations": ["016", "019", "021"],
+      "visits": 0,
+      "interactions": 0
+    },
+    {
+      "id": "018",
+      "name": {
+        "ar": "قلعة دكا التراثية",
+        "en": "Dakka Heritage Castle",
+        "fr": "Château patrimonial Dakka",
+        "es": "Castillo Patrimonial Dakka"
+      },
+      "location": {
+        "lat": 18.2300,
+        "lng": 42.5300,
+        "google_maps_url": "https://goo.gl/maps/3wEt4vVpE5t6bDGe7"
+      },
+      "description": {
+        "ar": "قلعة أثرية تعود لقرون، تعكس التاريخ العسكري في عسير.",
+        "en": "An ancient castle reflecting military history in Asir.",
+        "fr": "Un château ancien reflétant l'histoire militaire en Asir.",
+        "es": "Un castillo antiguo que refleja la historia militar en Asir."
+      },
+      "recommendations": ["016", "017", "019"],
+      "visits": 0,
+      "interactions": 0
+    },
+    {
+      "id": "019",
+      "name": {
+        "ar": "سوق الثلاثاء التاريخي",
+        "en": "Tuesday Historical Market",
+        "fr": "Marché historique du mardi",
+        "es": "Mercado Histórico del Martes"
+      },
+      "location": {
+        "lat": 18.2400,
+        "lng": 42.5400,
+        "google_maps_url": "https://goo.gl/maps/dh3VXLpN3c9tzTzK8"
+      },
+      "description": {
+        "ar": "سوق تقليدي يقام أسبوعياً يعكس الثقافة المحلية والعادات التجارية القديمة.",
+        "en": "A traditional weekly market reflecting local culture and old trade customs.",
+        "fr": "Un marché hebdomadaire traditionnel reflétant la culture locale et les anciennes coutumes commerciales.",
+        "es": "Un mercado semanal tradicional que refleja la cultura local y las antiguas costumbres comerciales."
+      },
+      "recommendations": ["017", "018", "020"],
+      "visits": 0,
+      "interactions": 0
+    },
+    {
+      "id": "020",
+      "name": {
+        "ar": "متحف الشفا",
+        "en": "Al-Shifa Museum",
+        "fr": "Musée Al-Shifa",
+        "es": "Museo Al-Shifa"
+      },
+      "location": {
+        "lat": 18.2500,
+        "lng": 42.5600,
+        "google_maps_url": "https://goo.gl/maps/gh7G1fF8bEGW3VGX8"
+      },
+      "description": {
+        "ar": "متحف يعرض تاريخ عسير من العصور القديمة حتى العصر الحديث.",
+        "en": "Museum displaying Asir's history from ancient to modern times.",
+        "fr": "Musée présentant l'histoire d'Asir de l'antiquité à l'époque moderne.",
+        "es": "Museo que exhibe la historia de Asir desde la antigüedad hasta la época moderna."
+      },
+      "recommendations": ["016", "019", "021"],
+      "visits": 0,
+      "interactions": 0
+    },
+    {
+      "id": "021",
+      "name": {
+        "ar": "قرية القحمة",
+        "en": "Al-Qahmah Village",
+        "fr": "Village Al-Qahmah",
+        "es": "Pueblo Al-Qahmah"
+      },
+      "location": {
+        "lat": 18.2600,
+        "lng": 42.5700,
+        "google_maps_url": "https://goo.gl/maps/zZyUhv9BWrn3vqDF8"
+      },
+      "description": {
+        "ar": "قرية تراثية تضم بيوتاً حجرية وأجواءً تقليدية مع معارض فنية محلية.",
+        "en": "Heritage village with stone houses, traditional atmosphere and local art exhibits.",
+        "fr": "Village patrimonial avec des maisons en pierre, une ambiance traditionnelle et des expositions d'art local.",
+        "es": "Pueblo patrimonial con casas de piedra, ambiente tradicional y exposiciones de arte local."
+      },
+      "recommendations": ["017", "020", "022"],
+      "visits": 0,
+      "interactions": 0
+    },
+    {
+      "id": "022",
+      "name": {
+        "ar": "محمية السد",
+        "en": "Al-Sadd Reserve",
+        "fr": "Réserve Al-Sadd",
+        "es": "Reserva Al-Sadd"
+      },
+      "location": {
+        "lat": 18.2700,
+        "lng": 42.5800,
+        "google_maps_url": "https://goo.gl/maps/9L98DwR8k9eZtEvD8"
+      },
+      "description": {
+        "ar": "محمية طبيعية تضم تنوعاً نباتياً وحيوانياً نادراً في عسير.",
+        "en": "A nature reserve with rare plant and animal diversity in Asir.",
+        "fr": "Une réserve naturelle avec une diversité rare de plantes et d'animaux en Asir.",
+        "es": "Una reserva natural con diversidad rara de plantas y animales en Asir."
+      },
+      "recommendations": ["021", "023", "024"],
+      "visits": 0,
+      "interactions": 0
+    },
+    {
+      "id": "023",
+      "name": {
+        "ar": "قلعة الشفا",
+        "en": "Al-Shifa Castle",
+        "fr": "Château Al-Shifa",
+        "es": "Castillo Al-Shifa"
+      },
+      "location": {
+        "lat": 18.2800,
+        "lng": 42.5900,
+        "google_maps_url": "https://goo.gl/maps/YF8b7RzQfXvBQJsD8"
+      },
+      "description": {
+        "ar": "قلعة أثرية ذات أهمية تاريخية في منطقة عسير.",
+        "en": "A historic castle of great significance in Asir region.",
+        "fr": "Un château historique d'une grande importance dans la région d'Asir.",
+        "es": "Un castillo histórico de gran importancia en la región de Asir."
+      },
+      "recommendations": ["022", "024", "025"],
+      "visits": 0,
+      "interactions": 0
+    },
+    {
+      "id": "024",
+      "name": {
+        "ar": "متحف الطائف في عسير",
+        "en": "Taif Museum in Asir",
+        "fr": "Musée de Taif en Asir",
+        "es": "Museo de Taif en Asir"
+      },
+      "location": {
+        "lat": 18.2900,
+        "lng": 42.6000,
+        "google_maps_url": "https://goo.gl/maps/VjG9pUuTc6stT1gX7"
+      },
+      "description": {
+        "ar": "متحف يعرض تاريخ الطائف وتأثيره في عسير.",
+        "en": "Museum displaying history of Taif and its influence in Asir.",
+        "fr": "Musée présentant l'histoire de Taif et son influence en Asir.",
+        "es": "Museo que exhibe la historia de Taif y su influencia en Asir."
+      },
+      "recommendations": ["023", "025", "020"],
+      "visits": 0,
+      "interactions": 0
+    },
+    {
+      "id": "025",
+      "name": {
+        "ar": "قرية المفتاحة التراثية",
+        "en": "Al-Muftaha Heritage Village",
+        "fr": "Village patrimonial Al-Muftaha",
+        "es": "Pueblo Patrimonial Al-Muftaha"
+      },
+      "location": {
+        "lat": 18.3000,
+        "lng": 42.6100,
+        "google_maps_url": "https://goo.gl/maps/4kMWD3pWXpD65YMT9"
+      },
+      "description": {
+        "ar": "قرية تراثية فريدة تعكس الثقافة والفنون العسيرية الأصيلة.",
+        "en": "A unique heritage village reflecting authentic Asiri culture and arts.",
+        "fr": "Un village patrimonial unique reflétant la culture et les arts authentiques d'Asir.",
+        "es": "Un pueblo patrimonial único que refleja la cultura y las artes auténticas de Asir."
+      },
+      "recommendations": ["016", "022", "024"],
+      "visits": 0,
+      "interactions": 0
+    }
+  ],
+  "stats": {
+    "totalVisits": 0,
+    "languages": {
+      "ar": 0,
+      "en": 0,
+      "fr": 0,
+      "es": 0
+    },
+    "averageTime": 0
+  }
+}
