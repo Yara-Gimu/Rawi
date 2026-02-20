@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>راوي | لوحة الإحصائيات</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="src/styles/style.css">
+</head>
+<body>
+    <div class="dashboard-wrapper">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <img src="public/admin-logo.png" alt="راوي" class="admin-logo">
+                <span class="brand-name">راوي</span>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <a href="dashboard.html" class="nav-item active">
+                    <span class="icon">📊</span>
+                    <span>الإحصائيات</span>
+                </a>
+                <a href="cms.html" class="nav-item">
+                    <span class="icon">🗺️</span>
+                    <span>إدارة المعالم</span>
+                </a>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <button id="logoutBtn" class="logout-link">
+                    <span class="icon">🚪</span>
+                    <span>تسجيل الخروج</span>
+                </button>
+            </div>
+        </aside>
+        
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="content-header">
+                <div>
+                    <h1>إحصائيات المنصة</h1>
+                    <p>نظرة عامة على أداء دليل عسير السياحي</p>
+                </div>
+            </header>
+            
+            <!-- Stats Cards -->
+            <section class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">👥</div>
+                    <div class="stat-info">
+                        <h3>إجمالي الزيارات</h3>
+                        <p id="totalVisits">0</p>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">⏱️</div>
+                    <div class="stat-info">
+                        <h3>متوسط الزيارات</h3>
+                        <p id="avgTime">0 زيارة</p>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">🌍</div>
+                    <div class="stat-info">
+                        <h3>أكثر لغة استخداماً</h3>
+                        <p id="topLanguages">العربية</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Charts -->
+            <section class="charts-grid">
+                <div class="chart-container">
+                    <h3>تحليل الزيارات اليومية</h3>
+                    <div class="chart-wrapper">
+                        <canvas id="visitsChart"></canvas>
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <h3>توزيع اللغات</h3>
+                    <div class="chart-wrapper">
+                        <canvas id="languageChart"></canvas>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Top Landmarks -->
+            <section class="top-landmarks-section">
+                <h3>المعالم الأكثر زيارة</h3>
+                <div id="topLandmarksList" class="landmarks-ranking-grid">
+                    <!-- Dynamic content -->
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <div id="toastContainer" class="toast-container"></div>
+    <script src="src/js/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>راوي | إدارة المعالم</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="src/styles/style.css">
+</head>
+<body>
+    <div class="dashboard-wrapper">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <img src="public/admin-logo.png" alt="راوي" class="admin-logo">
+                <span class="brand-name">راوي</span>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <a href="dashboard.html" class="nav-item">
+                    <span class="icon">📊</span>
+                    <span>الإحصائيات</span>
+                </a>
+                <a href="cms.html" class="nav-item active">
+                    <span class="icon">🗺️</span>
+                    <span>إدارة المعالم</span>
+                </a>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <button id="logoutBtn" class="logout-link">
+                    <span class="icon">🚪</span>
+                    <span>تسجيل الخروج</span>
+                </button>
+            </div>
+        </aside>
+        
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="content-header">
+                <div>
+                    <h1>إدارة المعالم السياحية</h1>
+                    <p>إضافة، تعديل، أو حذف المعالم من قاعدة بيانات راوي</p>
+                </div>
+                <button id="addLandmarkBtn" class="primary-btn pulse">
+                    <span class="icon">➕</span>
+                    إضافة معلم جديد
+                </button>
+            </header>
+            
+            <!-- Table Section -->
+            <section class="table-section">
+                <div class="table-controls">
+                    <div class="search-wrapper">
+                        <span class="search-icon">🔍</span>
+                        <input type="text" id="searchInput" placeholder="ابحث باسم المعلم...">
+                    </div>
+                </div>
+                
+                <div class="table-responsive">
+                    <table id="landmarksTable">
+                        <thead>
+                            <tr>
+                                <th>المعرف</th>
+                                <th>اسم المعلم</th>
+                                <th>الإحداثيات</th>
+                                <th>الزيارات</th>
+                                <th>الإجراءات</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Dynamic content -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <!-- Modal -->
+    <div id="landmarkModal" class="modal-overlay">
+        <div class="modal-card">
+            <div class="modal-header">
+                <h2 id="formTitle">إضافة معلم جديد</h2>
+                <button class="close-modal" id="cancelEditBtn">✕</button>
+            </div>
+            
+            <form id="editLandmarkForm">
+                <input type="hidden" id="landmarkId">
+                
+                <div class="form-grid">
+                    <!-- Arabic Section -->
+                    <div class="form-section">
+                        <h3>🇸🇦 المعلومات بالعربية</h3>
+                        <div class="input-group">
+                            <label>اسم المعلم</label>
+                            <input type="text" id="landmarkNameAr" required placeholder="مثال: جبل السودة">
+                        </div>
+                        <div class="input-group">
+                            <label>الوصف</label>
+                            <textarea id="landmarkDescAr" rows="4" required placeholder="وصف المعلم بالعربية"></textarea>
+                        </div>
+                    </div>
+                    
+                    <!-- English Section -->
+                    <div class="form-section">
+                        <h3>🇬🇧 English Information</h3>
+                        <div class="input-group">
+                            <label>Landmark Name</label>
+                            <input type="text" id="landmarkNameEn" required placeholder="Example: Jabal Sawda">
+                        </div>
+                    </div>
+                    
+                    <!-- Location Section -->
+                    <div class="form-section full-width">
+                        <h3>📍 الموقع الجغرافي</h3>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>خط العرض (Latitude)</label>
+                                <input type="number" step="0.000001" id="landmarkLat" required placeholder="18.2667">
+                            </div>
+                            <div class="input-group">
+                                <label>خط الطول (Longitude)</label>
+                                <input type="number" step="0.000001" id="landmarkLng" required placeholder="42.3667">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Recommendations -->
+                    <div class="form-section full-width">
+                        <h3>🔗 التوصيات القريبة</h3>
+                        <div class="input-group">
+                            <label>أرقام المعالم القريبة (مفصولة بفواصل)</label>
+                            <input type="text" id="landmarkRecs" placeholder="مثال: 002, 005, 008">
+                            <small style="color: var(--color-text-muted);">أدخل أرقام الـ ID للمعالم القريبة</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-footer">
+                    <button type="submit" class="save-btn">💾 حفظ البيانات</button>
+                    <button type="button" id="deleteLandmarkBtn" class="danger-btn" style="display: none;">🗑️ حذف المعلم</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <div id="toastContainer" class="toast-container"></div>
+    <script src="src/js/admin.js"></script>
+</body>
+</html>

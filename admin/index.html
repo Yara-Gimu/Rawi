@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>راوي | تسجيل دخول الإدارة</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="src/styles/style.css">
+</head>
+<body class="login-page">
+    <div class="login-container">
+        <div class="login-card">
+            <div class="login-header">
+                <img src="public/admin-logo.png" alt="راوي" class="admin-logo">
+                <h1>تسجيل الدخول</h1>
+                <p>مرحباً بك في لوحة تحكم <strong>راوي</strong></p>
+            </div>
+            
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="username">اسم المستخدم</label>
+                    <input type="text" id="username" placeholder="أدخل اسم المستخدم" required autofocus>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">كلمة المرور</label>
+                    <input type="password" id="password" placeholder="أدخل كلمة المرور" required>
+                </div>
+                
+                <button type="submit" class="primary-btn login-btn">
+                    <span class="icon">🔐</span>
+                    تسجيل الدخول
+                </button>
+            </form>
+            
+            <div style="margin-top: 20px; text-align: center; color: var(--color-text-muted); font-size: 0.9rem;">
+                <small>للتجربة: admin / admin123</small>
+            </div>
+        </div>
+    </div>
+    
+    <div id="toastContainer" class="toast-container"></div>
+    <script src="src/js/admin.js"></script>
+</body>
+</html>
