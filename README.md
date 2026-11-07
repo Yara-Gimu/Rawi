@@ -19,7 +19,7 @@
 * **Smart Concierge:** An AI chatbot that answers cultural queries based on authentic heritage data.
 * **Admin Dashboard:** A custom CMS to manage landmarks and view real-time interaction metrics.
 * **Cross-Platform UI:** Responsive design tailored for both tourists on mobile and admins on desktop.
-* **Zero-Maintenance Scaling:** Leveraging serverless and containerized services for 99.9% uptime.
+* **Low-Maintenance Hosting:** Containerized with Docker and deployed on managed cloud services, so there are no servers to maintain.
 
 ---
 
